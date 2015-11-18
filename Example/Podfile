@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'TXAudioPlayerRecorder_Example', :exclusive => true do
+  pod "TXAudioPlayerRecorder", :path => "../"
+end
+
+target 'TXAudioPlayerRecorder_Tests', :exclusive => true do
+  pod "TXAudioPlayerRecorder", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
