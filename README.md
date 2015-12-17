@@ -1,7 +1,5 @@
 # TXAudioPlayerRecorder
 
-<!--[![Version](https://img.shields.io/cocoapods/v/TXAudioPlayerRecorder.svg?style=flat)](http://cocoapods.org/pods/TXAudioPlayerRecorder)-->
-
 Simple library that handlers playing or recording audio files (local or remote)
 
 
