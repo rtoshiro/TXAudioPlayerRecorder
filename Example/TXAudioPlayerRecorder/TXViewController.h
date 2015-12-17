@@ -7,7 +7,10 @@
 //
 
 @import UIKit;
+@import TXAudioPlayerRecorder;
 
-@interface TXViewController : UIViewController
+@interface TXViewController : UIViewController <TXAudioPlayerRecorderDelegate>
+
+
 
 @end

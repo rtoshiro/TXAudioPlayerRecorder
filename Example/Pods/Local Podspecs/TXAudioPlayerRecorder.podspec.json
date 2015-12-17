@@ -1,0 +1,25 @@
+{
+  "name": "TXAudioPlayerRecorder",
+  "version": "1.0.0",
+  "summary": "A short description of TXAudioPlayerRecorder.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TXAudioPlayerRecorder",
+  "license": "MIT",
+  "authors": {
+    "Toshiro Sugii": "rtoshiro@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TXAudioPlayerRecorder.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TXAudioPlayerRecorderBundle": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_TXAudioPlayerRecorder_Tests {
+  umbrella header "Pods-TXAudioPlayerRecorder_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

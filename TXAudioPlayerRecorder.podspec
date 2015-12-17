@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "TXAudioPlayerRecorder"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of TXAudioPlayerRecorder."
+  s.version          = "1.0.0"
+  s.summary          = "TXAudioPlayerRecorder is a library that handles playing or recording audio files (local or remote)"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TXAudioPlayerRecorder"
+  s.homepage         = "https://github.com/rtoshiro/TXAudioPlayerRecorder"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Toshiro Sugii" => "rtoshiro@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TXAudioPlayerRecorder.git", :tag => s.version.to_s }
+  s.author           = { "Toshiro Sugii" => "rtoshiro@printwtf.com" }
+  s.source           = { :git => "https://github.com/rtoshiro/TXAudioPlayerRecorder.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'TXAudioPlayerRecorder' => ['Pod/Assets/*.png']
+    'TXAudioPlayerRecorderBundle' => ['Pod/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
